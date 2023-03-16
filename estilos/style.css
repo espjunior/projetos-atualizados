@@ -33,11 +33,6 @@ header {
     
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-}
-
 article {
     border-radius: 10px;
     background-color: rgb(186, 186, 205);
