@@ -62,13 +62,13 @@ p {
 
 img {
     width: 400px;
-    border: 1px solid black;
+    border: 2px solid rgb(244, 17, 17);
 
-}
+}   
 
 .imagens-celular {
     display: flex;
-    margin: auto;
+    position: relative;
     justify-content: center;
 }
 
