@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+/*Configuração da versão Mobile - CSS Principal*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(234, 226, 226);
+}
+
+header {
+    height: 30vh;
+    background-image: url(../imagens/banner-mobile02.jpg);
+    background-size: cover; /*Centralização da Imagem Principal*/
+    background-position: center center; /*Centralização da Imagem Principal*/
+    
+}
+
+article {
+    border-radius: 10px;
+    background-color: rgb(186, 186, 205);
+    font-size: 1em;
+}
+
+article h1 {
+    padding: 5px;
+    margin-top: 5px;
+    text-align: center;
+    
+}
+
+h2 {
+    margin: 10px;
+    margin-top: 80px;
+    padding: 5px;
+    text-align: center;
+}
+
+p {
+    padding: 20px;
+    text-align: justify; /*Texto irá ficar justificado*/
+    margin-bottom: 10px; /*Espaçamento de um paragrafo para o outro*/
+    text-indent: 20px; /*Espaçamento do inicio dos paragrafo*/
+}
+
+img {
+    width: 400px;
+    border: 1px solid black;
+
+}
+
+.imagens-celular {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*INICIO - Configuração do MENU*/
+menu {
+    display: block;
+    background-image: linear-gradient(to right, black, rgb(33, 32, 32));
+}
+
+menu ul {
+    list-style-type: none; /*Retirada das bolinhas do Menu*/
+    
+}
+
+menu li {
+    border-top: 1px solid rgb(15, 7, 61); /*Cores das linhas que dividem o MENU*/
+    text-align: center;
+    padding: 8px;
+
+}
+
+menu a {
+    color: white;
+    text-decoration: none;
+}
+
+menu li:hover {
+    color: black;
+    background-image: linear-gradient(to right, black, rgb(17, 1, 110), black); /*Cor do Menu após passar o mouse em cima*/
+}
+
+span#burguer { /*Configuração do icone do MENU HAMBURGUER*/
+    display: block;
+    background-color: rgb(0, 0, 0); /*Cor do fundo*/
+    border-top: 1px solid rgb(15, 7, 61);
+    color: #fff; /*Cor do icone*/
+    text-align: center; /*Centralização do icone*/
+    padding: 10px; /*Espaçamento interno*/
+    cursor: pointer; /*O curso irá virar uma mão*/
+}
+
+span#burguer:hover {
+    background-image: linear-gradient(to left, black, rgb(11, 11, 181),black);
+    color: rgb(239, 235, 235);
+}
