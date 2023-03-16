@@ -26,14 +26,6 @@ body {
     background-color: rgb(234, 226, 226);
 }
 
-header {
-    height: 30vh;
-    background-image: url(../imagens/banner-mobile02.jpg);
-    background-size: cover; /*Centralização da Imagem Principal*/
-    background-position: center center; /*Centralização da Imagem Principal*/
-    
-}
-
 article {
     border-radius: 10px;
     background-color: rgb(186, 186, 205);
